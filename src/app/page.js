@@ -1,9 +1,9 @@
 'use client';
 
 import React, { useState, useEffect } from 'react';
-import ConnectApp from './components/ConnectApp/ConnectApp';
-import ContactList from './components/ContactList/ContactList';
-import CreateContact from './components/CreateContact/CreateContact';
+import ConnectApp from './components/ConnectApp';
+import ContactList from './components/ContactList';
+import CreateContact from './components/CreateContact';
 
 export default function Home() {
   const [connectionId, setConnectionId] = useState('');

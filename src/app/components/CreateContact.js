@@ -3,7 +3,7 @@
 
 import React, { useState } from 'react';
 import axios from 'axios';
-import styles from './CreateContact.module.css';
+import styles from './css/CreateContact.module.css';
 
 export default function CreateContact({ connectionId }) {
   const [firstName, setFirstName] = useState('');
