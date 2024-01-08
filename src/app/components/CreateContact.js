@@ -2,30 +2,16 @@
 'use client';
 
 import React, { useState } from 'react';
-import axios from 'axios';
 import styles from './css/CreateContact.module.css';
 
 export default function CreateContact({ connectionId }) {
   const [firstName, setFirstName] = useState('');
   const [lastName, setLastName] = useState('');
 
-  const handleSubmit = async (event) => {
+  const handleSubmit = (event) => {
     event.preventDefault();
-    if (connectionId) {
-      try {
-        const response = await axios.post(`/api/contacts?connectionId=${connectionId}`, {
-          firstName,
-          lastName,
-        });
-        console.log('Contact added:', response.data);
-        setFirstName('');
-        setLastName('');
-      } catch (error) {
-        console.error('Error adding contact:', error);
-      }
-    } else {
-      console.error('No connection ID. Please connect to Salesforce first.');
-    }
+    console.log('Create contact functionality will be implemented here.', { firstName, lastName });
+    // Placeholder for future Alloy contact creation code
   };
 
   return (
