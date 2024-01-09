@@ -1,37 +1,54 @@
+
 # Alloy CRM Integration with Next.js - Unified API Tutorial
 
 ## Introduction
 
-Welcome to our tutorial on building a CRM integration using Next.js and Alloy. This guide will walk you through the process of adding Alloy functionality to a pre-built Next.js project. The project allows users to connect to a CRM system, list contacts, and create new contacts. If you're new to Next.js -- no worries, it's built on React and should be familiar for Javascript developers.
+Welcome to our tutorial on building a CRM integration using Next.js and Alloy. This guide will take you through adding Alloy functionality to a pre-built Next.js project, enabling connection to a CRM system, contact listing, and creation. If you're new to Next.js, don't worry—it's built on React and should be familiar to Javascript developers.
+
+## Repository Structure
+
+Before starting, familiarize yourself with the repository structure:
+
+-   **Start Branch**: Your starting point, containing the basic project setup and components, without complete Alloy integration.
+-   **Main Branch**: Contains the completed project with full Alloy integration, serving as a reference.
 
 ## Getting Started
 
 1.  **Clone the Starting Repository**:
     
-    Start by cloning the provided repository. This contains the basic structure and components you'll need.
+    Clone the provided repository and switch to the `start` branch:
         
     ```
     git clone https://github.com/your-repository/practice-crm-app.git
     cd practice-crm-app
+    git checkout start
     ``` 
     
-2.  **Install Dependencies**:
+2.  **Set Up Environment Variables**:
     
-    Run the following command to install the necessary dependencies.
+    It's important to set up your Alloy User ID and API Key as environment variables before proceeding. Replace the placeholders with your actual Alloy credentials:
         
-    `npm install` 
-    
-3.  **Run the Application**:
-    
-    Use the following command to start the application. This will let you view the UI components in their initial, non-functional state.
+    ```
+    export ALLOY_USER_ID='your-alloy-user-id'
+    export ALLOY_API_KEY='your-alloy-api-key'
+    ``` 
         
-    `npm run dev` 
+3.  **Install Dependencies**:
     
-    Visit `http://localhost:3000` in your browser to see the application. In the tutorial UI, you'll see 3 steps. Each represents a Javascript Component, which we'll fill in the functionality for.
-    <div align="center">
-         <img src="https://github.com/kellygold/temp-crm-demo/assets/28990947/b95c0aa1-adf9-4a17-8952-44b56ae75173" width="600"/>
-    </div>
-
+    Install the necessary dependencies for the project:
+    
+    `npm install`
+    
+4.  **Run the Application**:
+    
+    Start the application to view the UI components in their initial state:
+    
+    `npm run dev`
+    
+    Open `http://localhost:3000` in your browser to view the application. The tutorial UI will show three steps, each corresponding to a Javascript Component that you will complete.
+    
+    <div align="center"> <img src="https://github.com/kellygold/temp-crm-demo/assets/28990947/b95c0aa1-adf9-4a17-8952-44b56ae75173" width="600"/> </div>
+    
 ## Tutorial Steps
 
 
