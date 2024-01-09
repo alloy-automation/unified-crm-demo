@@ -28,7 +28,9 @@ Welcome to our tutorial on building a CRM integration using Next.js and Alloy. T
     `npm run dev` 
     
     Visit `http://localhost:3000` in your browser to see the application. In the tutorial UI, you'll see 3 steps. Each represents a Javascript Component, which we'll fill in the functionality for.
-    
+    <div align="center">
+         <img src="https://github.com/kellygold/temp-crm-demo/assets/28990947/b95c0aa1-adf9-4a17-8952-44b56ae75173" width="600"/>
+    </div>
 
 ## Tutorial Steps
 
