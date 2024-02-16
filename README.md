@@ -20,7 +20,7 @@ Before starting, familiarize yourself with the repository structure:
         
     ```
     git clone https://github.com/alloy-automation/unified-crm-demo.git
-    cd practice-crm-app
+    cd unified-crm-demo
     git checkout start
     ``` 
     
