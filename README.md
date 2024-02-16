@@ -19,7 +19,7 @@ Before starting, familiarize yourself with the repository structure:
     Clone the provided repository and switch to the `start` branch:
         
     ```
-    git clone https://github.com/your-repository/practice-crm-app.git
+    git clone https://github.com/alloy-automation/unified-crm-demo.git
     cd practice-crm-app
     git checkout start
     ``` 
